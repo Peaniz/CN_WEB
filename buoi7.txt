@@ -1,0 +1,5 @@
+1 nháy đơn -> chuỗi, 2 nháy đơn = 1 nháy kép
+Tên biến không được bắt đầu bằng kí tự gạch dưới
+unset() : set biến về null
+
+

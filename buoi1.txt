@@ -1,0 +1,4 @@
+Web là 1 dịch vụ của internet
+dịch vụ của Internet là ứng dụng của internet
+Kiến trúc WWW theo client server có 3 lớp, 3 thành phần và 4 mô hình. 
+Xampp: Apache(php), mysql, phpmyadmin, htdocs(quản lí điểm sinh viên proj), tomcat(jsp)

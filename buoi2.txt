@@ -1,0 +1,44 @@
+Chương 1: Tổng quan Internet và web
+Mạng máy tính là 2 hoặc nhiều máy tính với nhau kết nối với nhau để chia sẻ tài nguyên cả phần cứng lần phần mềm.
+Điều kiện tối thiểu để 2 máy tính có mạng máy tính (kết nối được với nhau) thì cần phải có môi trường truyền:
++ Môi trường có dây dẫn (định hướng) : cáp song hành, cáp xoắn, cáp đồng trục, cáp quang, ...
++ Môi trường không có dây dẫn (không định hướng): sóng viba mặt đất, viba vệ tinh, sóng radio, vô tuyến tế bào 
+cáp quang bên trong sử dụng thuỷ tinh silica(hợp chất của silic ở dạng thạch anh kèm theo các hợp chất phụ gia để tạo nên)
+Cáp quang là hằng số có khoảng cách => dùng tốt không cần dùng các bộ register để khuếch đại tín hiệu truyền
+Điều kiện 2: phải có cùng giao thức (protocol) TCP/IP 
+
+Bộ giao thức TCP/IP
+    TCP/UDP -> tầng 4
+    IP,ICMP -> tầng 3
+    ARP,RARP -> tầng 2
+Phân biệt được địa chỉ IP
+Các thức hoạt động của giao thức IP khi gói tin qua tầng 3
+Cấu trúc gói tin IP
+
+Giao thức ICMP được bọc chung với IP để đưa ra thông báo lỗi trong quá trình truyền gói tin IP
+
+MAC(48 bit: 24 bit đầu tiên là mã của nhà sản xuất, 24 bit sau là định danh cho sản phẩm này) (địa chỉ vật lí)
+Trong hệ thống mạng các máy tính trao đổi liên lạc với nhau dựa trên địa chỉ vật lí
+
+Reverse ARP: truy lại vị trí IP từ vị trí vật lí đã biết
+
+CC/BCC trong gmail
+to: A (người nhận cần phải hồi đáp lại)
+CC: B,C (cũng nhận được nhưng không cần reply lại, mang tính chất để xác nhận minh chứng)
+
+=>{SMTP/IMAP, POP 3}
+
+Căn cứ vào phạm vi địa lí: LAN, MAN, WAN, GAN, ... Intranet, Internet
+Căn cứ vào kiến trúc mạng: 
++ Hình trạng mạng (Topology): mạng hình sao, mạng tuyến tính bus, mạng token ring,....
++ Giao thức mạng(protocol): mạng TCP/IP, net BIOS, netware, ...
+Cẳn cứ vào cách thức chuyển dữ liệu:
++ Mạng chuyển mạch điện
++ Mạng chuyển mạch thông báo
++ Mạng chuyển mạch gói (đang dùng)
+Căn cứ vào hệ điều hành: windows (mạng window NT 4.0), Unix, Linux,...
+
+Ngoài ra: mạng Client/Server, mạng ngang hàng(peer-to-peer)
+IAP(Nhà cung cấp khả năng Internet) =>
+ISP(Nhà cung cấp dịch vụ sử dụng Internet)
+

@@ -1,0 +1,28 @@
+Mô hình xử lí Client/Server
+
+Mô hình MVC 3 lớp
+Presentation - Application Logic - Data Management
+Frontend Server
+Backend Server
+
+Dữ liệu không nằm ở 1 server mà nằm ở nhiều nơi
+Bài toán: Đặt vé máy bay ở Châu Âu
+
+4 Mô hình xử lí phổ biến:
+1. Mô hình trình bày từ xa
+2. Mô hình phân tán chức năng (dữ liệu tập trung nhưng phân tán chức năng xử lí)
+3. Mô hình quản lí dữ liệu từ xa
+4. Mô hình quản lí dữ liệu phân tán (Gửi nhận thông điệp có tần số Lamport, Đóng dấu thông điệp có đánh dấu trọng số, Lập trình bản sa thông điệp)
+
+Chương 2:
+HTML (SGML)
++ Thẻ (tag):
+    thẻ chứa
+    thẻ rỗng
+    thuộc tính thẻ
++ Các dạng:
+    <table>
+    <script>
+    <form>
+    <frame> -> HTML 5 bỏ <body>
+    <a/href>

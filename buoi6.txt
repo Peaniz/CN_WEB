@@ -1,0 +1,25 @@
+=== : so sánh 2 giá trị có cùng giá trị hay cùng kiểu dữ liệu không
+Hệ logic: (on + action)
+Đối tượng lớn nhất là windows -> document -> form -> elements
+
+Đối tượng window:
+alert("message")
+confirm("message")
+prompt("message", variable)
+close()
+open("URL", "name")
+
+Đối tượng document:
+document.write("5+6", 5+6)
+Các thuộc tính:
+LColor: Xanh (linkColor)
+VColor: Đỏ (vlinkColor)
+AColor: Vàng (alinkColor)
+
+Đối tượng form: 
+Quan trọng target.
+
+Đối tượng text, textarea, password:
+
+
+

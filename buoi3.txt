@@ -1,0 +1,62 @@
+Bộ(họ) giao thức TCP/IP:
+TCP,UDP -> tầng 4
+IP, ICMP -> tầng 3
+ARP, RARP -> tầng 2
+Địa chỉ IP -> 192.168.1.5 (Địa chỉ IP gồm 2 phần (NetID do NIC cấp, hostID), chia thành 32 bit chia thành 4 nhóm)
+Giao thức IP  192.168.1.25
+Cấu trúc gói IP
+
+Subnet mask -> để che netiD lại
+Tìm netid : tìm địa chỉ IP và Subnetmask
+
+DNS: phân giải thuận/phân giải ngược 
+www.ud.edu.vn 
+Muốn gửi 1 tài nguyên trên máy tính ta cần gửi 1 request -> sử dụng url 
+
+Server           |           Client
+Web Server       |         Web Client 
+
+
+FTP(s)
+SMTP
+IMAP, POP3
+
+Khi gửi thư, thư sẽ được gửi lên tổng đài, sau đó mới gửi bản sao tới người nhật 
+=> khi người nhận tắt máy, tin nhắn se vẫn trên hộp thư
+Tin nhắn trên đt di động gửi đi không được mã hóa 
+Mail server/Mail client
+
+FPT (File Transfer Protocol)
+Dịch vụ Telnet  (RealVNC.com / TightVNC.com)
+
+Kiến trúc WWW trên mô hình Client/Server:
++ Phía client có 1 chương trình phần mềm là client, phía server có chương trình phần mềm là server
+     ___________________________________________________________________________________
+    |                                   (request)                                       |
+ -----------                       -------------------                     -------------------  
+|           |              HTTP   |                   |     HTTP           |                  |
+|   Client  | ___________________ |      Internet     |__________________  |     Server       |
+|           |                     |                   |                    |                  |
+-------------                      -------------------                     |                  |
+    |                                                                      |                  |
+    |                                                                      --------------------
+    |                                  (respond)                                     |
+    ___________________________________________________________________________________
+
+
+           
+Web client                          url:+ giao thức                         Web server:+ lắng nghe các yêu cầu
++ Gửi yêu cầui lên                      + tên máy                                      + tìm trong tài nguyên, nếu có thì gửi phản hồi
+server                                  + đường dẫn tài nguyên                           về máy trạm client
++ nhận yêu cầu và hiển
+thị ở khuông dạng
+thích hợp
+
+4 bước sử dụng HTTP để giao tiếp giữa Web Browser và Web Server:
++ Tạo kết nối
++ Thực hiện yêu cầu
++ Phản hồi
++ Kết thúc kết nối
+
+Phân biệt POST/GET/Cookies
+Khi kết thúc giao tiếp tới Web Server, kết xuất HTMl thì hết session, hết phiên làm việc 9k

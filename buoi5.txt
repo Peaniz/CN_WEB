@@ -1,0 +1,10 @@
+..\
+form -> trường ngta thường sử dụng input(type, name, value)
+Vẫn có trường hợp không dùng input: TextArea, Combobox, Select(web) -> không được dùng input khi dùng select
+BLur: di chuyển ra ngoài form
+Click: click vào button
+Focus:
+
+Có từ 2 trang trở lên -> dùng frameset
+Chỉ có 1 trang thì dùng frame
+Dùng border để chia có đường viền
